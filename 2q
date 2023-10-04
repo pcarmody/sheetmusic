@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://pcarmody: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@github.com/pcarmody/sheetmusic.git
+#	url = ssh://git@github.com/pcarmody/math.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[credential]
+	helper = store
